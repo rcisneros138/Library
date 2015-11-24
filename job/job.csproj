@@ -48,6 +48,7 @@
     <Compile Include="BookInstance.cs" />
     <Compile Include="BookInterface.cs" />
     <Compile Include="Fiction.cs" />
+    <Compile Include="Genre.cs" />
     <Compile Include="Horror.cs" />
     <Compile Include="Librarian.cs" />
     <Compile Include="Non-Fiction.cs" />
