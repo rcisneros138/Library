@@ -21,6 +21,13 @@ namespace job
             genre = Console.ReadLine();
 
         }
+
+        public void passInfo()
+        {
+            //pass info to abstract class
+        }
+
+        
     }
         
 }

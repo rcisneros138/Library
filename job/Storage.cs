@@ -12,7 +12,7 @@ namespace job
    
         public void storeBook()
         {
-            //put in correct location.
+            //put in correct location based on organized genre.
         }  
     }
 }

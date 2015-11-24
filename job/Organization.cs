@@ -8,6 +8,11 @@ namespace job
 {
     class Organization
     {
+        Dictionary<string, string> bookInformation = new Dictionary<string, string>();
+        public void addToGenre()
+        {
+            //group by genre 
+        }
   
     }
 }

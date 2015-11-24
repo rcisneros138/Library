@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
+    <Compile Include="Biography.cs" />
+    <Compile Include="BookInfo.cs" />
+    <Compile Include="BookInstance.cs" />
+    <Compile Include="BookInterface.cs" />
+    <Compile Include="Fiction.cs" />
+    <Compile Include="Horror.cs" />
     <Compile Include="Librarian.cs" />
+    <Compile Include="Non-Fiction.cs" />
     <Compile Include="Organization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
