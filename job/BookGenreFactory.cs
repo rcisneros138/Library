@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace job
 {
-    class NonFiction: Genre
+    class BookGenreFactory
     {
-        //get book info
-
     }
 }

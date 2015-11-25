@@ -9,23 +9,12 @@ namespace job
     class Genre:BookInfo
     {
         string bookGenre;
-        public void getGenre()
+        public string getGenre()
         {
             bookGenre = genre;
+            return bookGenre;
         }
         
-        public void checkGenre()
-        {
-            switch (bookGenre)
-            {
-                case ("Horror"):
-                    //pass book title, author, and horror
-                    break;
-                case ("Biography"):
-                    //pass book title, author, and horror
-                    break;
-
-            }
-        }
+        
     }
 }

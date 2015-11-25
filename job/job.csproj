@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biography.cs" />
+    <Compile Include="BookGenreFactory.cs" />
+    <Compile Include="FictionBook.cs" />
+    <Compile Include="NonFictionBook.cs" />
+    <Compile Include="BookFactory.cs" />
     <Compile Include="BookInfo.cs" />
     <Compile Include="BookInstance.cs" />
     <Compile Include="BookInterface.cs" />

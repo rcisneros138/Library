@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace job
 {
-    abstract class BookInfo
+   public abstract class BookInfo
     {
         
         Librarian librarian = new Librarian();
-        public  string title
+        public string title
         {
             get { return librarian.title; }
             set { librarian.title = value; }

@@ -11,6 +11,7 @@ namespace job
         public string title;
         public string author;
         public string genre;
+        public string fiction;
         public void inputBookInfo()
         {
             Console.Write("Enter book title: ");
@@ -19,8 +20,13 @@ namespace job
             author = Console.ReadLine();
             Console.Write("Enter book genre: ");
             genre = Console.ReadLine();
+            Console.Write("fiction or non-fiction? ");
+            fiction = Console.ReadLine();
+            
+
 
         }
+
         
     }
         
